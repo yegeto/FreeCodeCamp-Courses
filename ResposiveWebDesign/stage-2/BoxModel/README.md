@@ -1,0 +1,11 @@
+#Learn the CSS Box Model by Building a Rothko Painting      freecodecamp.org
+
+Github page:
+
+This repository was created for the "Learn CSS Box Model by Building a Rothko Painting" course on freecodecamp.org.
+
+Course description:
+    Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.
+    In this course, you'll use CSS and the Box Model to create your own Rothko-style rectangular art pieces.
+
+Notes I took to identify the topics I learned:
