@@ -1,4 +1,4 @@
-# Quiz  / FreeCodeCamp.org
+# Accessibility Quiz   FreeCodeCamp.org
 
 This repository was created for the "Learn Accessibility by Building a Quiz" course on freecodecamp.org.
 
