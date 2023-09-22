@@ -22,23 +22,26 @@ To increase the page accessibility, the role attribute can be used to indicate t
 
 #### Step 16:
 Every region role requires a label, which helps screen reader users understand the purpose of the region. One method for adding a label is to add a heading element inside the region and then reference it with the aria-labelledby attribute.
+
 Add the following aria-labelledby attributes to the section elements:
+
   - student-info
   - html-questions
   - css-questions
+  
 Then, within each section element, nest one h2 element with an id matching the corresponding aria-labelledby attribute. Give each h2 suitable text content.
 
-      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-        <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">Student Info</h2>
-        </section>
-        <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML</h2>
-        </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
-        </section>
-      </form>
+    <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+      <section role="region" aria-labelledby="student-info">
+        <h2 id="student-info">Student Info</h2>
+      </section>
+      <section role="region" aria-labelledby="html-questions">
+        <h2 id="html-questions">HTML</h2>
+      </section>
+      <section role="region" aria-labelledby="css-questions">
+        <h2 id="css-questions">CSS</h2>
+      </section>
+    </form>
 
 #### Step 23:
 Arguably, D.O.B. is not descriptive enough. This is especially true for visually impaired users. One way to get around such an issue, without having to add visible text to the label, is to add text only a screen reader can read.
