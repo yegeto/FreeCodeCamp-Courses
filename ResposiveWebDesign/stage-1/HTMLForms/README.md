@@ -1,6 +1,5 @@
 # registration-form --- freecodecamp.org
 
-GitHub page: https://yegeto.github.io/registration-form/
 
 This repository created based on "Learn HTML Forms by  Building Registration Form" course on freecodecamp.org
 
